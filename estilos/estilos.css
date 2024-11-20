@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: url("../imagenes/background-image.png") no-repeat;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  object-fit: contain;
+  gap: 1rem;
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header span {
+  background: #95aad0;
+  border-radius: 1rem;
+  margin: auto 0;
+  padding: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: bolder;
+}
+
+input,
+select {
+  border-color: #00000033;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  caret-color: #d2d5da;
+}
+
+button {
+  background-color: black;
+  color: #ffffff;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.summary-section {
+  background-color: #d2d5da;
+  padding: 0.8rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-item {
+  display: flex;
+  list-style: none;
+}
+
+.summary-item img {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  height: 7rem;
+  width: 7rem;
+  object-fit: none;
+  border: 0.15rem #00000033 solid;
+  border-radius: 1rem;
+}
+.container-item-header {
+  font-weight: bold;
+  display: flex;
+}
+.container-item-features {
+  display: flex;
+}
+
+.item-feature {
+  color: #6c727f;
+}
+
+.contact-information-section {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem;
+}
+
+/* .product-section {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.product-section img {
+  border: solid #00000033 0.1rem;
+  border-radius: 0.5rem;
+  background: #f3f4f6;
+  width: 6.5rem;
+  height: 6.5rem;
+  object-fit: none;
+} */
