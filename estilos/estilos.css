@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+/* #region DEFAULT_SELECTORS */
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +48,7 @@ button {
   border-radius: 0.4rem;
   padding: 0.7rem;
 }
+/* #endregion DEFAULT_SELECTORS */
 
 .main-container {
   display: flex;
@@ -54,45 +56,64 @@ button {
   justify-content: center;
 }
 
+/* #region SUMMARY_SECTION */
+
 .summary-section {
   background-color: #d2d5da;
-  padding: 0.8rem 1.8rem;
-  display: flex;
+  padding: 1.8rem;
   flex-direction: column;
+}
+
+.summary-section ul {
+  display: grid;
+  gap: 1.2rem;
 }
 
 .summary-item {
   display: flex;
   list-style: none;
+  gap: 1rem;
 }
 
 .summary-item img {
   background-color: #ffffff;
-  padding: 1.25rem;
-  height: 7rem;
-  width: 7rem;
+  padding: 0.7rem;
+  height: 5rem;
+  width: 5rem;
   object-fit: none;
   border: 0.15rem #00000033 solid;
   border-radius: 1rem;
 }
-.container-item-header {
+
+.container-item-info {
+  /* display: flex;
+  flex-direction: column; */
+  width: auto;
+  height: auto;
+  background-color: red;
+}
+/* .container-item-header {
   font-weight: bold;
   display: flex;
-}
+} */
 .container-item-features {
   display: flex;
+  vertical-align: ;
 }
 
 .item-feature {
   color: #6c727f;
 }
+/* #endregion SUMMARY_SECTION */
 
+/* #region CONTACT_INFORMATION_SECTION */
 .contact-information-section {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   padding: 1.8rem;
 }
+/* #endregion CONTACT_INFORMATION_SECTION */
 
 /* .product-section {
   display: flex;

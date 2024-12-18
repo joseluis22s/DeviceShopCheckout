@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevideShopCheckOut</title>
     <link rel="stylesheet" href="estilos/estilos.css" />
   </head>
+
   <body>
+
     <header>
       <h1>Checkout</h1>
       <span>3 ITEMS</span>
     </header>
+
     <main class="main-container">
       <section class="summary-section">
         <ul>
+          
           <li class="summary-item">
             <img src="imagenes/Gold.png" alt="iPhone 12 Pro" />
-            <div class="">
+            <div class="container-item-info">
               <div class="container-item-header">
                 <p>iPhone 12 Pro</p>
                 <p>$999.90</p>
@@ -28,9 +33,10 @@
               </div>
             </div>
           </li>
+
           <li class="summary-item">
             <img src="imagenes/Blue.png" alt="iPhone 12 Pro" />
-            <div>
+            <div class="container-item-info">
               <div class="container-item-header">
                 <p>Apple Watch</p>
                 <p>$399.90</p>
@@ -42,9 +48,10 @@
               </div>
             </div>
           </li>
+
           <li class="summary-item">
             <img src="imagenes/iMac=Front 1.png" alt="iPhone 12 Pro" />
-            <div>
+            <div class="container-item-info">
               <div class="container-item-header">
                 <p>iMac</p>
                 <p>$1199.90</p>
@@ -54,8 +61,10 @@
                 <p class="item-feature">x1</p>
                 <p class="item-feature">x</p>
               </div>
-            </div></li>
-        <hr />
+            </div>
+          </li>
+          <hr />
+          
         <div>
           <div>
             <input type="text" placeholder="Enter coupon code" />
@@ -71,6 +80,7 @@
           </div>
         </div>
       </section>
+
       <section class="contact-information-section">
         <span>Contac Information</span>
         <span>First & Last name</span>
@@ -79,7 +89,7 @@
         <input type="email" placeholder="Enter email adress" />
         <span>Country</span>
         <select name="countries" id="countries">
-          <option value="NONCE">- Select country -</option>
+          <option value="NONE">- Select country -</option>
           <option value="ES">Spain</option>
           <option value="FR">France</option>
           <option value="DE">Germany</option>
@@ -95,11 +105,14 @@
           <option value="DK">Denmark</option>
           <option value="GR">Greece</option>
           <option value="PL">Poland</option>
-          <option value="AT">Austria</option></select> 
+          <option value="AT">Austria</option>
+        </select> 
         <span>Postal Code</span>
         <input type="number" />
         <button>Continue</button>
       </section>
     </main>
+
   </body>
+
 </html>
